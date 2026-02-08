@@ -19,14 +19,14 @@ b {
 }
 
 a {
-    color: #0086e6;
+    color: #0f4beb;
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Moderna Sans Cnd', sans-serif;
     font-weight: 500;
-    color: #0000FF;
+    color: #0f4beb;
     padding: 0;
     margin: 0;
 }
@@ -77,7 +77,7 @@ ul {
 
 .navbar {
     /* box-shadow: 0 2px 2px #888; */
-    background: #0000FF;
+    background: #0f4beb;
 }
 .nav-link,
 .navbar-brand {

@@ -1,6 +1,6 @@
-# From Lab To Factory (FLTF) Workshop Website
+# Lab-to-Factory (L2F) Workshop Website
 
-This repository contains the code to build the FLTF Workshop website.
+This repository contains the code to build the L2F Workshop website.
 
 ## Preview Locally
 
@@ -10,8 +10,8 @@ The website can be previewed locally before pushing changes to GitHub or deployi
 Make sure **Python 3** is installed. Then run:
 
 ```bash
-git clone https://github.com/robotics-workshop/fltf-workshop.github.io.git && \
-cd fltf-workshop.github.io && \
+git clone https://github.com/robotics-workshop/l2f-workshop.github.io.git && \
+cd l2f-workshop.github.io && \
 python3 -m http.server 8000
 ```
 ### 2. Open `http://localhost:8000` in a Web Browser

@@ -21,7 +21,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
   integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <title>RSS 2026 - From Lab to Factory Workshop</title>
+  <title>RSS 2026 - Lab to Factory Workshop: Readying Autonomous Industrial Perception and Manipulation for Production</title>
   <link
     href="https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic%7CModerna+Sans+Cnd%3A400%2C500%2C600%2C700&display=swap"
     rel="stylesheet" nonce="">
@@ -72,17 +72,52 @@
 
       /* Make all links blue */
     a, a:visited {
-      color: #0000FF; /* Standard hyperlink blue */
+      color: #0f4beb; /* New blue */
       text-decoration: none;
     }
     a:hover, a:focus {
-      color: #0000CC;
+      color: #0d3dc7;
       text-decoration: underline;
     }
 
     .rss-blue {
-      color: #0000FF;
+      color: #0f4beb;
       font-weight: bold;
+    }
+
+    /* Title styling */
+    .title-main {
+      width: 60%;
+      margin: 0.5em auto 0.2em;
+      text-align: center;
+      font-size: 4em;
+      font-weight: 500;
+      font-family: 'Moderna Sans Cnd', sans-serif;
+      line-height: 1.1;
+    }
+
+    .title-sub {
+      width: 60%;
+      margin: 0  auto 0.75em;
+      text-align: center;
+      font-size: 1.125rem;
+      font-weight: 400;
+      color: #333;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    @media (max-width: 768px) {
+      .title-main { font-size: 2rem; }
+      .title-sub { font-size: 1rem; width: 90%; }
+    }
+
+    @media screen and (max-width: 1280px) {
+      .title-main { font-size: 3em; }
+    }
+
+    @media screen and (max-width: 600px) {
+      .title-main { font-size: 2em; font-weight: 400; }
+      .title-sub { font-size: 1.3em; }
     }
   </style>
 
@@ -122,7 +157,6 @@
 
 <div class="title-container">
   <div style="text-align: center;">
-    <!-- <div class="subtitle" style="margin-bottom: 20px;"><a href="https://2025.ieee-icra.org/" target="_blank"><img src="imgs/ICRA-RGB.png" style="width:250px;"></a></div> -->
 
     <a href="https://roboticsconference.org/" target="_blank">
       <img src="imgs/assets/rss26.png" alt="Logo"
@@ -130,12 +164,11 @@
         style="max-width:300px; margin-bottom: 1em; margin-top: 1em;" />
     </a>
 
-    <h1 style="width:60%;margin:auto;">
-      From Lab to Factory Workshop
-    </h1>
+    <h1 class="title-main">Lab-to-Factory Workshop</h1>
+    <h2 class="title-sub">Bringing Autonomous Industrial Perception and Manipulation to Production</h2>
 
     <div class="subtitle" style="margin: 20px; margin-bottom: -10px;">
-      Sydney, Austrlia | July, 2026<br>
+      Sydney, Australia | July, 2026<br>
     </div>
   </div>
 </div>
@@ -279,8 +312,8 @@
             href="https://roboticsconference.org/2019/12/04/paper-format/"><b>RSS
               template</b></a> and submitted via the FLTF OpenReview
               console. The extended abstract should be submitted along with references, acknowledgments, limitations, and
-              appendices as one .pdf file. Supplementary videos, websites, or data are welcomed in the OpenReview submission but not
-              required and must maintain author identity and affiliation anonymity.
+              appendices as one .pdf file. Supplementary videos, websites, or data are welcome in the OpenReview submission but not
+              required, and must maintain author identity and affiliation anonymity.
           <br><br>
           <b>Best Paper and Best Poster Awards:</b> The workshop will recognize outstanding contributions with a Best
           Extended Abstract Award and a Best Poster Award.<br><br>
